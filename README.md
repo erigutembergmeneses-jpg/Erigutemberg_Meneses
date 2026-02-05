@@ -1,4 +1,3 @@
-markdown
 # Site Biográfico - Erigutemberg Meneses
 
 Site completo dedicado à divulgação da obra e biografia do escritor e jurista Erigutemberg Meneses.
@@ -9,7 +8,7 @@ erigutemberg-meneses/
 ├── style.css # Estilos do site
 ├── script.js # Funcionalidades JavaScript
 ├── README.md # Documentação do projeto
-├── assets/ # Recursos estáticos
+├── assets/ # Recursos estáticos (opcional)
 │ ├── images/ # Imagens do site
 │ └── fonts/ # Fontes personalizadas
 └── pages/ # Páginas adicionais (se necessário)
@@ -19,7 +18,7 @@ text
 ## Seções do Site
 
 1. **Biografia** - Apresentação detalhada do autor, incluindo sua formação e áreas de atuação
-2. **Livros** - Catálogo completo das obras publicadas
+2. **Livros** - Catálogo completo das obras publicadas com links de compra
 3. **Artigos** - Publicações acadêmicas e artigos relevantes
 4. **Plataformas** - Lista completa de onde encontrar as obras do autor
 5. **Contato** - Informações de contato e links para redes
@@ -28,11 +27,20 @@ text
 
 - **Recanto das Letras** - Perfil com 2.004 textos e mais de 46 mil leituras
 - **Amazon** - Livros em formato impresso e digital (Kindle)
-- **Clube de Autores** - Editora independente com diversos títulos
+- **Clube de Autores** - Editora independente com página de busca específica do autor
 - **JusBrasil** - Artigos jurídicos e análise de processos
 - **Google Scholar** - Citações acadêmicas em universidades
 - **SSRN** - Pesquisas sobre justiça neurocompatível
 - **Mercado Livre** - Títulos disponíveis para compra
+
+## Destaque Especial: Clube de Autores
+
+O site agora inclui uma representação da página de busca do Clube de Autores, com:
+
+- Lista completa dos livros disponíveis na plataforma
+- Links individuais para cada obra
+- Destaque visual para esta seção
+- Link direto para a página de busca oficial
 
 ## Funcionalidades
 
@@ -42,6 +50,7 @@ text
 - Cards interativos para livros e plataformas
 - Animações ao rolar a página
 - Links diretos para todas as plataformas
+- Destaque especial para a página do Clube de Autores
 
 ## Tecnologias Utilizadas
 
