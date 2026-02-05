@@ -91,4 +91,21 @@ document.addEventListener('DOMContentLoaded', function() {
     elementsToAnimate.forEach(element => {
         observer.observe(element);
     });
+    
+    // Adicionar animação de entrada aos elementos
+    const style = document.createElement('style');
+    style.textContent = `
+        .livro-card, .artigo-item, .plataforma-card, .stat-card {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        
+        .livro-card.animate-in, .artigo-item.animate-in, 
+        .plataforma-card.animate-in, .stat-card.animate-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    `;
+    document.head.appendChild(style);
 });
